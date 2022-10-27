@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Inscription</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="text-center text-dark mt-5">BUG TRACKER</h2>
+        <div class="card my-5">
+
+          <form class="card-body cardbody-color p-lg-5" id="form">
+
+            <div class="text-center">
+              <img src="https://picsum.photos/200" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                width="200px" alt="image aleatoire">
+            </div>
+
+            <div class="mb-3">
+              <input type="text" class="form-control" id="user_name" aria-describedby="emailHelp"
+                placeholder="Nom d'utilisateur">
+            </div>
+
+            <div class="mb-3">
+              <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+            </div>
+
+            <div class="mb-3">
+              <input type="password" class="form-control" id="password3" placeholder="Retapez le mot de passe">
+            </div>
+            
+            <div class="text-center">
+              <button onclick="register()" type="submit" class="btn btn-color px-5 mb-5 w-100">S'inscrire</button>
+            </div>
+
+            <div id="emailHelp" class="form-text text-center mb-5 text-dark">
+               <a href="connexion.html" class="text-dark fw-bold"> Se connecter</a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<div id="container"></div>
+
+  
+  <script src="js/script.js"></script>
+  <script type="module" src="js/inscription.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+</body>
+</html>
