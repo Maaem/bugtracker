@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/dashboard.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Dashboard</title>
 </head>
 <body>
 
   <!-- navbar -->
 
-  <header class="bg-purple-500">
+  <header class="bg-[#413C58]">
     <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
       <div class="flex w-full items-center justify-end border-b border-indigo-500 py-6 lg:border-none">
         <div class="flex w-1/3 items-center justify-start">
@@ -49,104 +51,21 @@
   <!-- fin navbar -->
 
   <!-- tableau -->
-  <div class="min-h-screen bg-pink-400 py-5">
+  <div class="min-h-screen bg-[#A3C4BC] py-5">
     <div class='overflow-x-auto w-full'>
         <table class='mx-auto max-w-4xl w-full whitespace-nowrap rounded-lg bg-white divide-y divide-gray-300 overflow-hidden'>
             <thead class="bg-gray-900">
                 <tr class="text-white text-left">
                     <th class="font-semibold text-sm uppercase px-6 py-4"> Désignation </th>
                     <th class="font-semibold text-sm uppercase px-6 py-4"> Date </th>
+                    <th class="font-semibold text-sm uppercase px-6 py-4 text-center"> Id </th>
                     <th class="font-semibold text-sm uppercase px-6 py-4 text-center"> Nom </th>
                     <th class="font-semibold text-sm uppercase px-6 py-4 text-center"> État </th>
                     <th class="font-semibold text-sm uppercase px-6 py-4"> </th>
                 </tr>
             </thead>
             <tbody class="divide-y divide-gray-200">
-                <tr>
-                    <td class="px-6 py-4">
-                        <div class="flex items-center space-x-3">
-                            <div>
-                                <p> Mira Rodeo </p>
-                                <p class="text-gray-500 text-sm font-semibold tracking-wide"> mirarodeo23@mail.com </p>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="px-6 py-4">
-                        <p class=""> Software Developer </p>
-                        <p class="text-gray-500 text-sm font-semibold tracking-wide"> Development </p>
-                    </td>
-                    <td class="px-6 py-4 text-center"> <span class="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span> </td>
-                    <td class="px-6 py-4 text-center"> Developer </td>
-                    <td class="px-6 py-4 text-center"> <a href="#" class="text-purple-800 hover:underline">Supprimer</a> </td>
-                </tr>
-                <tr>
-                    <td class="px-6 py-4">
-                        <div class="flex items-center space-x-3">
-                            <div>
-                                <p> Mira Rodeo </p>
-                                <p class="text-gray-500 text-sm font-semibold tracking-wide"> mirarodeo23@mail.com </p>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="px-6 py-4">
-                        <p class=""> Software Developer </p>
-                        <p class="text-gray-500 text-sm font-semibold tracking-wide"> Development </p>
-                    </td>
-                    <td class="px-6 py-4 text-center"> <span class="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span> </td>
-                    <td class="px-6 py-4 text-center"> Developer </td>
-                    <td class="px-6 py-4 text-center"> <a href="#" class="text-purple-800 hover:underline">Supprimer</a> </td>
-                </tr>
-                <tr>
-                    <td class="px-6 py-4">
-                        <div class="flex items-center space-x-3">
-                            <div>
-                                <p> Mira Rodeo </p>
-                                <p class="text-gray-500 text-sm font-semibold tracking-wide"> mirarodeo23@mail.com </p>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="px-6 py-4">
-                        <p class=""> Software Developer </p>
-                        <p class="text-gray-500 text-sm font-semibold tracking-wide"> Development </p>
-                    </td>
-                    <td class="px-6 py-4 text-center"> <span class="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span> </td>
-                    <td class="px-6 py-4 text-center"> Developer </td>
-                    <td class="px-6 py-4 text-center"> <a href="#" class="text-purple-800 hover:underline">Supprimer</a> </td>
-                </tr>
-                <tr>
-                    <td class="px-6 py-4">
-                        <div class="flex items-center space-x-3">
-                            <div>
-                                <p> Mira Rodeo </p>
-                                <p class="text-gray-500 text-sm font-semibold tracking-wide"> mirarodeo23@mail.com </p>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="px-6 py-4">
-                        <p class=""> Software Developer </p>
-                        <p class="text-gray-500 text-sm font-semibold tracking-wide"> Development </p>
-                    </td>
-                    <td class="px-6 py-4 text-center"> <span class="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span> </td>
-                    <td class="px-6 py-4 text-center"> Developer </td>
-                    <td class="px-6 py-4 text-center"> <a href="#" class="text-purple-800 hover:underline">Supprimer</a> </td>
-                </tr>
-                <tr>
-                    <td class="px-6 py-4">
-                        <div class="flex items-center space-x-3">
-                            <div>
-                                <p> Mira Rodeo </p>
-                                <p class="text-gray-500 text-sm font-semibold tracking-wide"> mirarodeo23@mail.com </p>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="px-6 py-4">
-                        <p class=""> Software Developer </p>
-                        <p class="text-gray-500 text-sm font-semibold tracking-wide"> Development </p>
-                    </td>
-                    <td class="px-6 py-4 text-center"> <span class="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span> </td>
-                    <td class="px-6 py-4 text-center"> Developer </td>
-                    <td class="px-6 py-4 text-center"> <a href="#" class="text-purple-800 hover:underline">Supprimer</a> </td>
-                </tr>
+              <br>
             </tbody>
         </table>
     </div>

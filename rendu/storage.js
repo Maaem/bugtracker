@@ -15,11 +15,11 @@ export function removeTokenStorage(key) {
 
 // Dashboard list
 
-export function SetLocalStorage(data) {
-  localStorage.setItem("token", data);
+export function SetLocalStorage(data,key) {
+  localStorage.setItem(key, data);
 }
 
+// Recuperer la liste des bugs
 export function GetListStorage(data) {
-  localStorage.setItem("users", data);
   localStorage.setItem("token", data);
 }
