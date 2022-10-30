@@ -31,10 +31,10 @@ export async function list() {
         tbody.innerHTML += ` <tr>
             <td class="px-6 py-4">
             <p class="">${data.title}</p>
-            <p class="text-gray-500 text-sm font-semibold tracking-wide">${
+            <p class="text-gray-500 text-sm font-semibold tracking-wide text-justify">${
               data.description
             }</p>
-        </td>
+        <br></td>
         <td class="px-6 py-4">
             <p class="">${new Intl.DateTimeFormat("fr-FR", {
               dateStyle: "full",
